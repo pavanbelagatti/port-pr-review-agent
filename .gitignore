@@ -1,0 +1,8 @@
+echo ".env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+port-action.json
+port-automation.json
+github_bridge.py" > .gitignore
