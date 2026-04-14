@@ -17,10 +17,10 @@ load_dotenv()
 
 app = Flask(__name__)
 
-PORT_CLIENT_ID     = os.environ["PORT_CLIENT_ID"]
-PORT_CLIENT_SECRET = os.environ["PORT_CLIENT_SECRET"]
-GITHUB_TOKEN       = os.environ["GITHUB_TOKEN"]
-OPENAI_API_KEY     = os.environ["OPENAI_API_KEY"]
+PORT_CLIENT_ID     = os.environ.get("PORT_CLIENT_ID", "")
+PORT_CLIENT_SECRET = os.environ.get("PORT_CLIENT_SECRET", "")
+GITHUB_TOKEN       = os.environ.get("GITHUB_TOKEN", "")
+OPENAI_API_KEY     = os.environ.get("OPENAI_API_KEY", "")
 
 PORT_API_BASE  = "https://api.getport.io/v1"
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
