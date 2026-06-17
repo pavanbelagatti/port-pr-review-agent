@@ -30,6 +30,8 @@ Fetches service context from Port catalog
 
 Reasons with GPT-4o → generates verdict + markdown review
 
+Testing the smart PR review thing from Port
+
 ↓
 
 Posts review comment directly to the GitHub PR
