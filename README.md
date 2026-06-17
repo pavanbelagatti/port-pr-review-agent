@@ -71,3 +71,5 @@ This server does two things Port-native agents can't:
 - Port API
 - GitHub REST API
 - Deployed on Railway
+
+Testing out the the AI smart PR review thing again now since the Port PR Service is new. 
