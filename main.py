@@ -7,7 +7,7 @@ comment, and writes verdict back to the Port PR entity.
 Works for any GitHub repo and any Port service — fully dynamic.
 """
 
-import os
+import oss
 import json
 import requests
 from flask import Flask, request, jsonify
