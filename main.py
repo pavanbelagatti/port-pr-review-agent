@@ -38,7 +38,7 @@ def get_port_token() -> str:
 
 
 # ── Fetch service context from Port ───────────────────────────────────────────
-def fetch_service_context(service_id: str, token: str) -> dict:
+def fetch_service_context(service_id: str, token: str) -> dict:xyz
     headers = {"Authorization": f"Bearer {token}"}
 
     # Single API call — entity includes properties, team, AND scorecards
